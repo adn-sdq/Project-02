@@ -1,0 +1,44 @@
+.Home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333; /* Dark background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  font-family: 'Arial', sans-serif; /* Use your preferred font family */
+  /* You can add your logo image here using background-image or <img> element */
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation ul li {
+  margin-right: 1rem;
+}
+
+.navigation ul li:last-child {
+  margin-right: 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: 'Helvetica Neue', sans-serif; /* Use your preferred font family */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Style the links with hover effect */
+.navigation a:hover {
+  color: #f4a261; /* Hover color */
+}
